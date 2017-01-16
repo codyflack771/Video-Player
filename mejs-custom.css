@@ -1,0 +1,96 @@
+.mejs-custom .mejs-controls {
+	height: 70px;
+	background: transparent;
+}
+
+.mejs-custom .mejs-button,
+.mejs-custom .mejs-time {
+	position: absolute;
+}
+
+.mejs-custom .mejs-controls .mejs-time-rail .mejs-time-total {
+	border-radius: 0;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.1);
+}
+.mejs-custom .mejs-controls .mejs-time-rail .mejs-time-buffering {
+	border-radius: 0;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.1);
+}
+.mejs-custom .mejs-controls .mejs-time-rail .mejs-time-loaded {
+	border-radius: 0;
+	width: 0;
+	height: 4px;
+	background: gray;
+}
+.mejs-custom .mejs-controls .mejs-time-rail .mejs-time-current {
+	width: 0;
+	height: 4px;
+	border-radius: 0;
+	background: orange;
+}
+
+.mejs-custom .mejs-controls .mejs-play {
+	left: 15px;
+	bottom: 15px;
+}
+
+.mejs-custom .mejs-controls .mejs-play button {
+	width: 25px;
+	height: 25px;
+	background: url(icons/play-icon.png) no-repeat center;
+	margin: 0;
+	padding: 0;
+}
+
+.mejs-custom .mejs-controls .mejs-pause {
+	left: 15px;
+	bottom: 15px;
+}
+
+.mejs-custom .mejs-controls .mejs-pause button {
+	width: 25px;
+	height: 25px;
+	background: url(icons/pause-icon.png) no-repeat center;
+	margin: 0;
+	padding: 0;
+}
+
+.mejs-custom .mejs-controls .mejs-fullscreen-button {
+	right: 15px;
+	bottom: 15px;
+}
+
+.mejs-custom .mejs-controls .mejs-fullscreen-button button {
+	width: 25px;
+	height: 25px;
+	background: url(icons/fullscreen-icon.png) no-repeat center;
+	margin: 0;
+	padding: 0;
+}
+
+.mejs-custom .mejs-controls .mejs-volume-button  {
+	right: 55px;
+	bottom: 15px;
+}
+.mejs-custom .mejs-controls .mejs-mute button {
+	background: url(icons/volume-on-icon.png) no-repeat center;
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+}
+.mejs-custom .mejs-controls .mejs-unmute button {
+	background: url(icons/volume-off-icon.png) no-repeat center;
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	padding: 0;	
+}
+
+.mejs-custom .mejs-controls .mejs-time  {
+	position: absolute;
+	bottom: 15px;
+	left: 45px;
+}
